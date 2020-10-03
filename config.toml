@@ -1,5 +1,5 @@
 baseURL = "https://srikartest1.netlify.app/"
-title = "Recent Blog posts"
+title = "Srikar Durgam"
 theme = "hugo-theme-m10c"
 paginate = 5
 
