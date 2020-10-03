@@ -1,8 +1,14 @@
 ---
-title: "NFL Week 2"
-author: "Srikar Durgam"
-date: "9/21/2020"
-output: html_document
+title: Week 3 Win
+author: Srikar Durgam
+date: '2020-10-02'
+slug: week-3-win
+categories:
+  - R
+  - Football
+tags:
+  - Football
+  - NFL
 ---
 
 ```{r setup, include=FALSE}
@@ -76,31 +82,3 @@ Week3ATL %>% filter(!is.na(home_wp),
   ) + theme_bw()
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
