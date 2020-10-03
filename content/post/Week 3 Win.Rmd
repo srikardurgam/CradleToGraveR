@@ -47,7 +47,7 @@ chi_color <- nfl_teamcolors %>%
   pull(primary)
 ```
 
-```{r}
+```{r, , fig.cap='A fancy pie chart.', tidy=FALSE}
 Week3ATL %>% filter(!is.na(home_wp),
          !is.na(away_wp)) %>%
   dplyr::select(game_seconds_remaining,
