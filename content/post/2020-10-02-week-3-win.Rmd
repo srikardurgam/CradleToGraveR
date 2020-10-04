@@ -114,3 +114,4 @@ anim_save("winprob.gif")
 ```{r, echo=FALSE}
 knitr::include_graphics("winprob.gif")
 ```
+![](/post/2020-10-02-week-3-win_files/winprob.gif)
