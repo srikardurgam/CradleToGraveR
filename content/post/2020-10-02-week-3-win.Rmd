@@ -76,7 +76,7 @@ chi_color <- nfl_teamcolors %>%
   pull(primary)
 ```
 
-```{r, , fig.cap='A fancy pie chart.', tidy=FALSE}
+```{r, , fig.cap='Win Probability Chart.', tidy=FALSE}
 Week3ATL %>% filter(!is.na(home_wp),
          !is.na(away_wp)) %>%
   dplyr::select(game_seconds_remaining,
@@ -105,4 +105,12 @@ Week3ATL %>% filter(!is.na(home_wp),
   ) + theme_bw() + 
   transition_reveal(-game_seconds_remaining)
 
+
+```
+```{r}
+anim_save("winprob.gif")
+```
+
+```{r, echo=FALSE}
+knitr::include_graphics("winprob.gif")
 ```
