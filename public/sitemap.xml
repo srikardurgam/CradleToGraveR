@@ -3,22 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/football/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
+    <loc>/post/first-presidetial-debate-analysis/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/debate/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/president/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorial/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/football/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -129,11 +149,6 @@
   
   <url>
     <loc>/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/tutorial/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
