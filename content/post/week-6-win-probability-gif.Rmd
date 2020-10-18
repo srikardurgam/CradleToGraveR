@@ -9,17 +9,17 @@ tags:
 ---
 
 ```{r message=FALSE, warning=FALSE}
-library(nflfastR)
+#library(nflfastR)
 library(tidyverse)
 library(ggplot2)
 library(gganimate)
 library(teamcolors)
+library(readr)
 options(scipen = 9999)
 ```
 
 ```{r message=FALSE, warning=FALSE}
-Week6ATL <- nflfastR::fast_scraper("2020_06_ATL_MIN")
-
+Week6ATL <- read_csv("Week6ATL")
 nfl_teamcolors <- teamcolors %>% filter(league == "nfl")
 atl_color <- nfl_teamcolors %>%
   filter(name == "Atlanta Falcons") %>%
@@ -58,4 +58,13 @@ Week6ATL %>% filter(!is.na(home_wp),
     caption = "Data from nflfastR"
   ) + theme_bw() + 
   transition_reveal(-game_seconds_remaining)
+```
+
+
+```{r,echo=FALSE}
+anim_save("winprob6.gif")
+```
+
+```{r, echo=FALSE}
+knitr::include_graphics("winprob6.gif")
 ```
